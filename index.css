@@ -13,12 +13,12 @@ body {
     left: 33%;
     top: 13%;
     border-radius: 5px;
+    padding-left:55px;
 
 }
 h1{
     font-family: 'Karla', sans-serif;
     font-weight: bold;
-    /* letter-spacing: 1px; */
     margin-bottom: 10px;
     line-height: 1;
 }
@@ -30,17 +30,17 @@ button{
 }
 #headings {
     margin-top: 90px;
-    margin-left: 55px;
+   
 }
 #p1{font-family: 'Inter', sans-serif;
-    margin-left: 55px;
+  
     font-size: 18px;
     line-height: 28px;
     color: #D5D4D8;
     margin-bottom: 13%;
 }
 #Generate{
-    margin-left: 55px;
+   
     background: #10B981;
     box-shadow: 0px 1px 2px rgb(0 0 0 / 5%);
     border-radius: 6px;
@@ -51,10 +51,10 @@ button{
     color: white;
     font-family: 'Inter', sans-serif;
 }
+
 .pass-para {font-family: 'Inter', sans-serif;
     background: #273549;
     border-radius: 6px;
-    margin-left: 55px;
     display: inline-block;
     padding: 3px;
     
@@ -66,9 +66,7 @@ button{
     width: 35%;
     
 }
-#para-el1{
-    margin-left: 55px;
-}
+
 
 
 hr{
@@ -77,8 +75,8 @@ hr{
     left: 52px;
     top: 361px;
     border: 1px solid #2F3E53;
-    margin-left: 55px;
-    margin: 25px,50px;
+   
+       margin-left: 0px;
     margin-top: 34px;
     margin-bottom: 35px;
 
