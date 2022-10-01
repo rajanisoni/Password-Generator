@@ -3,80 +3,81 @@ body {
     text-align: left;
     color: white;
     background:black;
+
 }
-
-/* ........IDS....... */
-
-#container{
-    padding-left: 55px;
+#background-2{
     background-color: #1F2937;
     position: absolute;
-    width: 36%;
+    width: 38%;
     height: 75%;
     left: 33%;
     top: 13%;
     border-radius: 5px;
-}
+    padding-left:55px;
 
+}
+h1{
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 1;
+}
 #green{
     color: #10B981;
 }
-
-#button-el2{
-    margin-left: 55px;
+button{
+    border: none;
 }
-
-#Generate{
-    background: #10B981;
-    border-radius: 6px;
-    padding: 13px;
+#headings {
+    margin-top: 90px;
+   
+}
+#p1{font-family: 'Inter', sans-serif;
+  
     font-size: 18px;
-    width: 40%;
+    line-height: 28px;
+    color: #D5D4D8;
+    margin-bottom: 13%;
+}
+#Generate{
+   
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 5%);
+    border-radius: 6px;
+    padding: 7px;
+    font-size: 16px;
+    line-height: 24px;
+    width: 35%;
     color: white;
     font-family: 'Inter', sans-serif;
 }
 
-
-/* ....SELECTORS..... */
-
-h1{
-    font-family: 'Karla', sans-serif;
-    font-weight: bold;
-    margin: 90px 0px 10px 0px;
-    font-size: 35px;
-}
-
-button{
-    border: none;
-}
-button:hover{
-    cursor: pointer;
-    text-decoration: underline;
-    opacity:0.7;
-}
-
-p{
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    color: #D5D4D8;
-    margin-bottom: 13%;
-}
-
-/* ....CLASSES..... */
-
-.pass-btn {    
-    font-family: 'Inter', sans-serif;
+.pass-para {font-family: 'Inter', sans-serif;
     background: #273549;
     border-radius: 6px;
-    padding: 15px;
-    font-size: 18px;
+    display: inline-block;
+    padding: 3px;
+    
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
     color: #55F991;
-    width: 40%;
+    
+    width: 35%;
+    
 }
 
+
+
 hr{
-    width: 90%;
+    width: 85%;
+    height: 0px;
+    left: 52px;
+    top: 361px;
     border: 1px solid #2F3E53;
-    margin: 35px 0px;
-    position: relative;
+   
+       margin-left: 0px;
+    margin-top: 34px;
+    margin-bottom: 35px;
+
 }
