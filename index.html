@@ -1,40 +1,41 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password-Generator</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="index.css">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap" rel="stylesheet">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
 </head>
 
+
+
 <body>
-    <div id="background-2">
+    <div id="container">
         <div id="headings">
             <h1>Genrate a<br/><span id="green"> random password </span></h1>
 
         </div>
         <div>
-            <p id="p1">Never use an insecure password again.</p>
+            <p>Never use an insecure password again.</p>
 
         </div>
 
-        <div>
-            <button id = "Generate" onclick="getPasswords()">Generate passwords</button>
-        </div>
-
+	@@ -32,14 +29,12 @@ <h1>Genrate a<br/><span id="green"> random password </span></h1>
         <hr />
 
         <div>
-            <p class="pass-para" id="para-el1">Password 1</p>
-            <p class="pass-para" id="para-el2">Password 2</p>
+            <button class="pass-btn" id="button-el1">Password 1</button>
+            <button class="pass-btn" id="button-el2">Password 2</button>
 
         </div>
     </div>
 </body>
+
+
 <script src="index.js"></script>
 </body>
-</html>
